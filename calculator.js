@@ -14,6 +14,11 @@ console.log(suma(4, 7));
 console.log(resta(7, 2));
 console.log(multiplicar(3, 4));
 // comandos basicos de git
-// git add. <= guarda los cambios
+// git add . <= guarda los cambios
 // git commit -m "comentarios" <= lanza el commit, con un comentario
 // git push <= git push
+
+// version criolla
+// git add . <= Le avisas a git que tenes todos estos cambios
+// git commit -m "" <= "Empaquetas" los cambios, el comentario es desdcriptivo
+// git push <= lo subis
