@@ -14,7 +14,7 @@ const multiplicar = require('./comandos/multiplicar')
 console.log(resta(7, 2));
 console.log(multiplicar(3, 4)); */
 // comandos basicos de git
-// git add. <= guarda los cambios
+// git add . <= guarda los cambios
 // git commit -m "comentarios" <= lanza el commit, con un comentario
 // git push <= git push
 // git pull <= trae los cambios
@@ -40,3 +40,8 @@ switch(process.argv[2]){
         console.log(multiplicar((process.argv[3], process.argv[4])));
         break;
 }
+
+// version criolla
+// git add . <= Le avisas a git que tenes todos estos cambios
+// git commit -m "" <= "Empaquetas" los cambios, el comentario es desdcriptivo
+// git push <= lo subis
